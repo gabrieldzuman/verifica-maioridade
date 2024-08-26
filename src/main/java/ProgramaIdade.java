@@ -10,11 +10,11 @@ public class ProgramaIdade {
         int idade = leitor.nextInt();
 
         if(idade < 0) {
-            System.out.printIn("Idade inválida!");
+            System.out.println("Idade inválida!");
         }else if(idade >= 18) {
-            System.out.printIn("Maior de idade!");
+            System.out.println("Maior de idade!");
         }else {
-            System.out.printIn("Menor de idade!")
+            System.out.println("Menor de idade!")
         }
     }
 }
